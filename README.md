@@ -16,20 +16,24 @@ A simple and lightweight logging solution for Node.js applications, offering cus
 
 ## Installation
 
-1. Clone the repository into your local project directory:
+1. Navigate `node_modules` inside your project or where you want to install:
 
-    `git clone https://github.com/sammyd3v/sd-customlogger.git ../yourproject/node_modules/sd-customlogger`
+    `cd yourproject/node_modules/`
 
-2. Navigate to the `sd-customlogger` directory inside your project's `node_modules`:
+3. Clone the repository into your local project directory:
 
-    `cd ../yourproject/node_modules/sd-customlogger`
+    `git clone https://github.com/sammyd3v/sd-customlogger.git sd-customlogger`
 
-3. Install the package dependencies:
+4. Navigate to the `sd-customlogger` directory inside your project's `node_modules`:
+
+    `cd sd-customlogger`
+
+5. Install the package dependencies:
 
     `npm install`
    
 
-4. Link to customLogger:
+6. Link to customLogger:
 
     `npm link`
 
