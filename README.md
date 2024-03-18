@@ -27,6 +27,11 @@ A simple and lightweight logging solution for Node.js applications, offering cus
 3. Install the package dependencies:
 
     `npm install`
+   
+
+4. Link to customLogger:
+
+    `npm link`
 
 
 ## Usage
