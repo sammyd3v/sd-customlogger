@@ -98,7 +98,7 @@ Example output: `2024-03-18T12:27:20.895Z [INFO] - This is a status info message
 ## Configuration Options
 The `CustomLogger` can be configured both programmatically and via environment variables:
 
-- `verboseLogging`: Toggle verbose logging to the console. Defaults to `false`.
+- `verboseLogging`: Toggle verbose logging to the console. Defaults to `true`.
 - `verboseReporting`: Toggle logging of regular messages to files. Defaults to `false`.
 - `errorReporting`: Toggle logging of error messages to files. Defaults to `true`.
 - `logLevel`: Specify minimum recorded log level. Order is debug < log < info < warn < error. Wrapped functions report in log. Defaults to `info`. 
