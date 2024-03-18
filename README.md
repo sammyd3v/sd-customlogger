@@ -22,7 +22,7 @@ A simple and lightweight logging solution for Node.js applications, offering cus
 
 2. Navigate to the `customlogger` directory inside your project's `node_modules`:
 
-    `cd path/to/your/project/node_modules/customlogger`
+    `cd path/to/your/project/node_modules/sd-customlogger`
 
 3. Install the package dependencies:
 
