@@ -16,7 +16,7 @@ A simple and lightweight logging solution for Node.js applications, offering cus
 
 ## Installation
 
-1. Navigate `node_modules` inside your project or where you want to install:
+1. Navigate to `node_modules` inside your project or where you want to install:
 
     `cd yourproject/node_modules/`
 
@@ -30,8 +30,7 @@ A simple and lightweight logging solution for Node.js applications, offering cus
 
 5. Install the package dependencies:
 
-    `npm install`
-   
+    `npm install`  
 
 6. Link to customLogger:
 
