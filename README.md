@@ -20,9 +20,9 @@ A simple and lightweight logging solution for Node.js applications, offering cus
 
     `git clone https://github.com/sammyd3v/sd-customlogger.git ../yourproject/node_modules/sd-customlogger`
 
-2. Navigate to the `customlogger` directory inside your project's `node_modules`:
+2. Navigate to the `sd-customlogger` directory inside your project's `node_modules`:
 
-    `cd path/to/your/project/node_modules/sd-customlogger`
+    `cd ../yourproject/node_modules/sd-customlogger`
 
 3. Install the package dependencies:
 
@@ -34,7 +34,7 @@ A simple and lightweight logging solution for Node.js applications, offering cus
 After installation, you can use the custom logger in your application, to wrap functions with name and error throwing options. You can also define your own logs.
 
 - Import the logger:
-   `import customLogger from 'customlogger';`
+   `import customLogger from 'sd-customlogger';`
 
 
 #### Wrapping examples
