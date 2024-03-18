@@ -25,7 +25,7 @@ export class CustomLogger {
         // Define default options, including a new option 'splitLogs'
         const defaultOptions = {
             verboseLogging: true,
-            verboseReporting: true,
+            verboseReporting: false,
             errorReporting: true,
             logLevel: 'info',
             deleteAfterDays: null,
