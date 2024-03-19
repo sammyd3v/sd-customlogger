@@ -108,7 +108,7 @@ The `CustomLogger` can be configured both programmatically and via environment v
 - `splitLogs`: Determines if logs should be split by type (logLevel) or combined into a single file (excluding errors). Defaults to `true`.
 
 Environment variables should be prefixed with `customLogger_`, e.g., `customLogger_verboseLogging = true`.
-Overruling structure is as follows: **Code Defaults < Environment Vars < Class Instance**  
+Overruling structure is as follows: **Code Defaults < Environment Vars < Class Instance Options**  
 
 - `logFormatter`: Sets the logging format structure. Can NOT be set by environment vars. Default structure:
     ``(level, message, context) => `${new Date().toISOString()} [${level.toUpperCase()}] - ${message} ${JSON.stringify(context)}`,``
@@ -133,7 +133,7 @@ These options are just examples, you can use any relevant options. They're not r
 
 #### Overrule Custom and Default options
 
-For safety, quick logging and development-to-production efforts you can also overrule all class instance options via environment variables. This is done by `process.env.customLogger_envOverrule = true`. This does NOT apply to `logFormatter`.
+As mentioned, options precedence is **Default Options > Environment Variables > Class Instance Options** For safety, quick logging and development-to-production efforts you can also overrule all class instance options via environment variables. This is done by `process.env.customLogger_envOverrule = true`. This does NOT apply to `logFormatter`, which can never be set in environment variables.
 
 
 ## Contributing
