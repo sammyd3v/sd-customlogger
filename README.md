@@ -133,7 +133,7 @@ These options are just examples, you can use any relevant options. They're not r
 
 #### Overrule Custom and Default options
 
-For safety, quick logging and development-to-production efforts you can overrule all custom and default options via environment variables. E.g., `process.env.customLogger_envOverrule = true` will allow you to set any options by env rules, except for logFormatter.
+So For safety, quick logging and development-to-production efforts you can also overrule all class instance options via environment variables. This is done by `process.env.customLogger_envOverrule = true`. This does NOT apply to `logFormatter`.
 
 
 ## Contributing
