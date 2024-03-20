@@ -87,7 +87,7 @@ Example output: `2024-03-18T12:22:08.540Z [LOG] - Function exampleFunction compl
 - Pass through your own custom parameters:
 
     ```
-    customLogger.info("This is a status info message." {"call":"exampleFunction", "status":"success"});
+    customLogger.info("This is a status info message.", {"call":"exampleFunction", "status":"success"});
     ```
 
 Example output: `2024-03-18T12:27:20.895Z [INFO] - This is a status info message. {"call":"exampleFunction","status":"success"}`
